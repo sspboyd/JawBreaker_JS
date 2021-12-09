@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sspboyd - JawBreaker</title>
+  </head>
+  <body>
+    <div id="header">
+      <p>
+        <a href="/index.html">sspboyd.ca</a> // <a href="/blog/">blog</a> //
+        <a href="https://github.com/sspboyd/Presidential_Debates">github</a> //
+        <a href="https://www.instagram.com/sspboyd/">instagram</a> //
+        <a href="https://twitter.com/sspboyd">twitter</a> //
+        <a href="/blog/hello/">contact</a>
+      </p>
+    </div>
+    <div id="title"><h1>JawBreaker</h1></div>
+
+    <div id="p55"></div>
+    <div id="content">
+      <div id="intructions">
+        <h2>Instructions</h2>
+        <p>Use the mouse to click around the image and see what happens.</p>
+
+        <p>
+          Hold down the 'shift' key to show the base image. <br />
+          Press 'r' to reset. <br />
+          Press 'i' for new background image.<br />
+          Press 'd' to download your image.
+        </p>
+      </div>
+      <div id="description">
+        <h2>How does this work?</h2>
+        <p>
+          JawBreaker is a generative drawing system. It works by selecting two
+          points on an image, the first point is the origin and the second point
+          is the edge. Circles are drawn between the origin and edge points.
+          Each circle's colour is picked from the base image's colours along the
+          line between the two points.
+        </p>
+        <p>Built using <a href="https://p5js.org/">P5.js</a>.</p>
+      </div>
+      <div id="gallery">
+        <h2>Gallery</h2>
+        <img src="./media/gallery/canvas14.jpeg" />
+        <!-- <img src="./media/gallery/canvas16.jpeg" /> -->
+        <img src="./media/gallery/jawBreaker1-20140913033006.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker1-20140914024954.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker1-20140913032544.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker1-20140913032913.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker1-20140914034922.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker1-20140914035309.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker2-20140918013923.pdf.jpeg" />
+        <img src="./media/gallery/jawBreaker2-20140918013944.pdf.jpeg" />
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-22771087-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-22771087-1");
+    </script>
+  </body>
+</html>
